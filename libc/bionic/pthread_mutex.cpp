@@ -796,12 +796,6 @@ static __attribute__((noinline)) bool IsMutexDestroyed(uint16_t mutex_state) {
     }
 }
 
-static int __always_inline HandleUsingDestroyedMutex(pthread_mutex_t* mutex,
-                                                               const char* function_name) {
-    __fortify_fatal("%s called on a destroyed mutex (%p)", function_name, mutex);
-    return EBUSY;
-}
-
 int pthread_mutex_lock(pthread_mutex_t* mutex_interface) {
 #if !defined(__LP64__)
     // Some apps depend on being able to pass NULL as a mutex and get EINVAL
