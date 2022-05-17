@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e6ed3e9f_b4d0f1e2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 71
+      },
+      "writtenOn": "2022-05-17T21:49:07Z",
+      "side": 1,
+      "message": "Have issues with some devices on sm8250 and sm8350.",
+      "revId": "2300288255bc3ff9874e272d68a0006ee2340874",
+      "serverId": "66da7299-18b4-411a-8fa2-12a880778196"
+    }
+  ]
+}
